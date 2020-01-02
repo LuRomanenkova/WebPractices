@@ -1,0 +1,25 @@
+﻿
+@model task_53.ViewModels.IndexViewModel
+@{
+    ViewData["Title"] = "Add new brand";
+}
+
+<form class="form-inline" method="post">
+  <div>
+
+    <p>
+      <label for="name">Enter brand name</label>
+      <input type="text" name="name" id="name" placeholder="Chanel"><span></span>
+    </p>
+
+    <p>
+      <label for="country">Enter brand country</label>
+      <input type="text" name="country" id="country" placeholder="France"><span></span>
+    </p>
+    
+    <span class="col-md-offset-2 col-md-10">
+        <button type="submit" value="Submit" name="Submit">Submit</button>                
+        <button type="submit"  value="Cancel" name="Cancel">Cancel</button>
+    </span>
+  </div>
+</form>

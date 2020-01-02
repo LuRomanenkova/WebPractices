@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\LudmilaRomanenkova\\RiderProjects\\task_53\\task_53\\task_53.csproj",
+    "projectUniqueName": "C:\\Users\\LudmilaRomanenkova\\Desktop\\WebPractices\\task_5\\task_53\\task_53\\task_53.csproj",
     "projectName": "task_53",
-    "projectPath": "C:\\Users\\LudmilaRomanenkova\\RiderProjects\\task_53\\task_53\\task_53.csproj",
-    "outputPath": "C:\\Users\\LudmilaRomanenkova\\RiderProjects\\task_53\\task_53\\obj\\",
+    "projectPath": "C:\\Users\\LudmilaRomanenkova\\Desktop\\WebPractices\\task_5\\task_53\\task_53\\task_53.csproj",
+    "outputPath": "C:\\Users\\LudmilaRomanenkova\\Desktop\\WebPractices\\task_5\\task_53\\task_53\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Microsoft\\Xamarin\\NuGet",

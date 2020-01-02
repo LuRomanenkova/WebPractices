@@ -9,13 +9,13 @@ namespace task_53
     {
         public static void Initialize(PerfumeContext context)
         {
-            Brand Chanel = new Brand { Id = 1, Name = "Chanel", Country = "France"};
-            Brand Armani = new Brand { Id = 2, Name = "Armani", Country = "Italy" };
-            Brand Versace = new Brand { Id = 3, Name = "Versace", Country = "Italy" };
-            Brand Givenchy = new Brand { Id = 4, Name = "Givenchy", Country = "France" };
-            Brand Burberry = new Brand { Id = 5, Name = "Burberry", Country = "UK" };
-            Brand Kenzo = new Brand { Id = 6, Name = "Kenzo", Country = "France" };
-            Brand Lanvin = new Brand { Id = 7, Name = "Lanvin", Country = "France" };
+            Brand Chanel = new Brand { Name = "Chanel", Country = "France"};
+            Brand Armani = new Brand { Name = "Armani", Country = "Italy" };
+            Brand Versace = new Brand { Name = "Versace", Country = "Italy" };
+            Brand Givenchy = new Brand { Name = "Givenchy", Country = "France" };
+            Brand Burberry = new Brand { Name = "Burberry", Country = "UK" };
+            Brand Kenzo = new Brand { Name = "Kenzo", Country = "France" };
+            Brand Lanvin = new Brand { Name = "Lanvin", Country = "France" };
             
             if (!context.Brands.Any())
             {

@@ -39,6 +39,30 @@ namespace task_53.Controllers
         {
             return View();
         }
+        
+        [HttpGet]
+        public IActionResult AddNewBrand()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AddNewBrand(string submit, string cancel, Brand brand)
+        {
+            var button = submit ?? cancel;
+            if (button == "Cancel")
+            {
+                return RedirectToAction("AddNewBrand");
+            }
+            
+            if (db.Brands.Any(x => x.Name == brand.Name))
+            {
+                return BadRequest();
+            }
+            
+            db.Brands.Add(brand);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
 
         
     }
