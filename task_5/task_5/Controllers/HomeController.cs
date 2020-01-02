@@ -16,25 +16,57 @@ namespace task_5.Controllers
         List<Brand> _brands;
         public HomeController()
         {
-            Brand Chanel = new Brand { Id = 1, Name = "Chanel", Country = "France" };
-            Brand Armani = new Brand { Id = 2, Name = "Armani", Country = "Italy" };
-            Brand Versace = new Brand { Id = 3, Name = "Versace", Country = "Italy" };
-            Brand Givenchy = new Brand { Id = 4, Name = "Givenchy", Country = "France" };
-            Brand Burberry = new Brand { Id = 5, Name = "Burberry", Country = "UK" };
-            Brand Kenzo = new Brand { Id = 6, Name = "Kenzo", Country = "France" };
-            Brand Lanvin = new Brand { Id = 7, Name = "Lanvin", Country = "France" };
+            Brand Chanel = new Brand { Id = 1, Name = "Chanel", Country = "France", CreationDate = DateTime.Now};
+            Brand Armani = new Brand { Id = 2, Name = "Armani", Country = "Italy", CreationDate = DateTime.Now };
+            Brand Versace = new Brand { Id = 3, Name = "Versace", Country = "Italy", CreationDate = DateTime.Now };
+            Brand Givenchy = new Brand { Id = 4, Name = "Givenchy", Country = "France", CreationDate = DateTime.Now };
+            Brand Burberry = new Brand { Id = 5, Name = "Burberry", Country = "UK", CreationDate = DateTime.Now };
+            Brand Kenzo = new Brand { Id = 6, Name = "Kenzo", Country = "France", CreationDate = DateTime.Now };
+            Brand Lanvin = new Brand { Id = 7, Name = "Lanvin", Country = "France", CreationDate = DateTime.Now };
             _brands = new List<Brand> { Chanel, Armani, Versace, Givenchy, Burberry, Kenzo, Lanvin };
  
             _perfumes = new List<Perfume>
             {
-                new Perfume { Id = 1, Name = "Coco Mademoiselle", Price = 6000, Volume = 50 , Count = 50, Brand = Chanel },
-                new Perfume { Id = 2, Name = "Eclat d’Arpege", Price = 1500, Volume = 30, Count = 10, Brand = Lanvin },
-                new Perfume { Id = 3, Name = "Acqua di Gioia", Price = 4700, Volume = 50, Count = 15, Brand = Armani },
-                new Perfume { Id = 4, Name = "Bright Crystal", Price = 4000, Volume = 50, Count = 10, Brand = Versace },
-                new Perfume { Id = 5, Name = "Very Irresistible", Price = 4500, Volume = 50, Count = 15, Brand = Givenchy },
-                new Perfume { Id = 6, Name = "Chance Eau Tendre", Price = 7400, Volume = 50, Count = 15, Brand = Chanel },
-                new Perfume { Id = 7, Name = "Body Tender", Price = 2500, Volume = 60, Count = 15, Brand = Burberry },
-                new Perfume { Id = 8, Name = "L'eau par", Price = 2400, Volume = 50, Count = 15, Brand = Kenzo }
+                new Perfume { 
+                    Id = 1, Name = "Coco Mademoiselle", 
+                    Price = 6000, Volume = 50 , Count = 50, 
+                    Brand = Chanel, CreationDate = DateTime.Now
+                },
+                new Perfume { 
+                    Id = 2, Name = "Eclat d’Arpege", 
+                    Price = 1500, Volume = 30, Count = 10, 
+                    Brand = Lanvin, CreationDate = DateTime.Now
+                },
+                new Perfume { 
+                    Id = 3, Name = "Acqua di Gioia", 
+                    Price = 4700, Volume = 50, Count = 15, 
+                    Brand = Armani, CreationDate = DateTime.Now
+                },
+                new Perfume { 
+                    Id = 4, Name = "Bright Crystal", 
+                    Price = 4000, Volume = 50, Count = 10, 
+                    Brand = Versace, CreationDate = DateTime.Now
+                },
+                new Perfume { 
+                    Id = 5, Name = "Very Irresistible", 
+                    Price = 4500, Volume = 50, Count = 15, 
+                    Brand = Givenchy, CreationDate = DateTime.Now
+                },
+                new Perfume { 
+                    Id = 6, Name = "Chance Eau Tendre", 
+                    Price = 7400, Volume = 50, Count = 15, 
+                    Brand = Chanel, CreationDate = DateTime.Now
+                },
+                new Perfume { 
+                    Id = 7, Name = "Body Tender", 
+                    Price = 2500, Volume = 60, Count = 15, 
+                    Brand = Burberry, CreationDate = DateTime.Now
+                },
+                new Perfume { 
+                    Id = 8, Name = "L'eau par", 
+                    Price = 2400, Volume = 50, Count = 15, 
+                    Brand = Kenzo, CreationDate = DateTime.Now
+                }
             };
         }
         public IActionResult Index(int? brandId)
