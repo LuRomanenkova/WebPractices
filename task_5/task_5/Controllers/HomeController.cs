@@ -86,5 +86,10 @@ namespace task_5.Controllers
  
             return View(ivm);
         }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
     }
 }

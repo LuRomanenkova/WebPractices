@@ -2,40 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ed59c7-e4a4-4e97-bc09-ab5a46b53f77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.task_5/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.task_5/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.task_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.task_5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/Models/Brand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/Models/Brand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/Models/Perfume.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/Models/Perfume.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_5/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_5/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/bin/Debug/netcoreapp3.0/task_5.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/bin/Debug/netcoreapp3.0/task_5.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/bin/Debug/netcoreapp3.0/task_5.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/bin/Debug/netcoreapp3.0/task_5.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/bin/Debug/netcoreapp3.0/task_5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/bin/Debug/netcoreapp3.0/task_5.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/bin/Debug/netcoreapp3.0/task_5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/bin/Debug/netcoreapp3.0/task_5.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/Debug/netcoreapp3.0/task_5.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/task_5.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/task_5.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5/obj/task_5.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/task_5/obj/task_5.csproj.nuget.dgspec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -46,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/task_5/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_5/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_5/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E7F363A6-798B-4C10-BAB1-1E3DD1C7C379/91/2a556627/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_5/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_5/Models/Brand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_5/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/task_5/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_5/ViewModels/BrandModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_5/ViewModels/IndexViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task_5/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_5/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -60,11 +64,14 @@
       <list>
         <option value="$PROJECT_DIR$/task_5/ViewModels/BrandModel.cs" />
         <option value="$PROJECT_DIR$/task_5/ViewModels/IndexViewModel.cs" />
-        <option value="$PROJECT_DIR$/task_5/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/task_5/Models/Perfume.cs" />
-        <option value="$PROJECT_DIR$/task_5/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/task_5/Models/Brand.cs" />
+        <option value="$PROJECT_DIR$/task_5/Views/Home/AddNewBrand.cshtml.cs" />
+        <option value="$PROJECT_DIR$/task_5/Views/Home/Privacy.cshtml" />
+        <option value="$PROJECT_DIR$/task_5/Views/Home/AddNewBrand.cshtml" />
         <option value="$PROJECT_DIR$/task_5/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/task_5/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/task_5/Controllers/HomeController.cs" />
       </list>
     </option>
   </component>
@@ -137,7 +144,7 @@
       <updated>1577877792900</updated>
       <workItem from="1577877824215" duration="4995000" />
       <workItem from="1577927544197" duration="371000" />
-      <workItem from="1577929331752" duration="2823000" />
+      <workItem from="1577929331752" duration="16056000" />
     </task>
     <servers />
   </component>
