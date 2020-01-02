@@ -1,0 +1,51 @@
+﻿@using task_53.ViewModels
+@model task_53.ViewModels.IndexViewModel
+@{
+    ViewData["Title"] = "Add new perfume";
+}
+
+<form class="form-inline" method="post">
+  <div>
+    
+    <p>
+      <label for="brand">Select perfume brand</label>
+      <select name="brand" id="brand">
+        @foreach(BrandModel brand in Model.Brands)
+        {
+            <option value="@brand.Id">@brand.Name</option>
+        }
+      </select>
+    </p>
+
+    <p>
+      <label for="name">Enter perfume name</label>
+      <input type="text" name="name" id="name" placeholder="Coco Mademoiselle"><span></span>
+    </p>
+
+    <p>
+      <label for="country">Enter brand country</label>
+      <input type="text" name="country" id="country" placeholder="France"><span></span>
+    </p>
+    
+    <p>
+      <label for="volume">Enter perfume volume</label>
+      <input type="text" name="volume" id="volume" placeholder="30"><span></span>
+    </p>
+    
+    <p>
+      <label for="price">Enter perfume price</label>
+      <input type="text" name="price" id="price" placeholder="7500"><span></span>
+    </p>
+     
+    <p>
+      <label for="count">Enter perfume count</label>
+      <input type="text" name="count" id="count" placeholder="10"><span></span>
+    </p>
+
+
+    <span class="col-md-offset-2 col-md-10">
+      <button type="submit" value="Submit" name="Submit">Submit</button>
+      <button type="submit" value="Cancel" name="Cancel">Cancel</button>
+    </span>
+  </div>
+</form>

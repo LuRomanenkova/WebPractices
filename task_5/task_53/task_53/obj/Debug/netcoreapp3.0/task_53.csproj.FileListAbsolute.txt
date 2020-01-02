@@ -177,3 +177,4 @@ C:\Users\LudmilaRomanenkova\Desktop\WebPractices\task_5\task_53\task_53\obj\Debu
 C:\Users\LudmilaRomanenkova\Desktop\WebPractices\task_5\task_53\task_53\obj\Debug\netcoreapp3.0\task_53.csproj.CopyComplete
 C:\Users\LudmilaRomanenkova\Desktop\WebPractices\task_5\task_53\task_53\obj\Debug\netcoreapp3.0\task_53.dll
 C:\Users\LudmilaRomanenkova\Desktop\WebPractices\task_5\task_53\task_53\obj\Debug\netcoreapp3.0\task_53.pdb
+C:\Users\LudmilaRomanenkova\Desktop\WebPractices\task_5\task_53\task_53\obj\Debug\netcoreapp3.0\Razor\Views\Perfume\AddNewPerfume.cshtml.g.cs

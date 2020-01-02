@@ -29,7 +29,7 @@ namespace task_53
                     new Perfume
                     {
                         Name = "Coco Mademoiselle",
-                        Price = 1500,
+                        Price = 6000,
                         Count = 10,
                         Volume = 30,
                         Brand = Chanel
@@ -37,7 +37,7 @@ namespace task_53
                     new Perfume
                     {
                         Name = "Eclat d’Arpege",
-                        Price = 6000,
+                        Price = 1500,
                         Count = 50,
                         Volume = 50,
                         Brand = Lanvin
@@ -48,7 +48,7 @@ namespace task_53
                         Price = 4700,
                         Count = 15,
                         Volume = 50,
-                        Brand = Armani
+                        Brand =  Armani
                     },
                     new Perfume
                     {
@@ -80,7 +80,7 @@ namespace task_53
                         Price = 2500,
                         Count = 15,
                         Volume = 60,
-                        Brand = Burberry,
+                        Brand = Burberry
                     },
                     new Perfume
                     {

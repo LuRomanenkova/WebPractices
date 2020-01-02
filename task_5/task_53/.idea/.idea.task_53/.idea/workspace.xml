@@ -6,30 +6,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.task_53/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.task_53/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/SampleData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/SampleData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/task_53.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/task_53.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/task_53.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/task_53.csproj.nuget.dgspec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +56,9 @@
     <setting file="file://$PROJECT_DIR$/task_53/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_53/ViewModels/IndexViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task_53/Views/Perfume/AddNewPerfume.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_53/Views/Home/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/task_53/Controllers/PerfumeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_53/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_53/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/task_53/SampleData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -83,16 +75,20 @@
         <option value="$PROJECT_DIR$/task_53/Models/PerfumeContext.cs" />
         <option value="$PROJECT_DIR$/task_53/appsettings.json" />
         <option value="$PROJECT_DIR$/task_53/Program.cs" />
-        <option value="$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/task_53/Views/Home/Privacy.cshtml" />
         <option value="$PROJECT_DIR$/task_53/Models/Brand.cs" />
         <option value="$PROJECT_DIR$/task_53/Models/Perfume.cs" />
         <option value="$PROJECT_DIR$/task_53/Startup.cs" />
-        <option value="$PROJECT_DIR$/task_53/Views/Shared/_Layout.cshtml" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/62c094d6-628f-48ef-b240-0e2a5b5e62c7/console.sql" />
         <option value="$PROJECT_DIR$/task_53/Views/Home/AddNewBrand.cshtml" />
-        <option value="$PROJECT_DIR$/task_53/SampleData.cs" />
+        <option value="$PROJECT_DIR$/task_53/Controllers/BrandController.cs" />
+        <option value="$PROJECT_DIR$/task_53/Views/Home/AddNewPerfume.cshtml" />
+        <option value="$PROJECT_DIR$/task_53/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/task_53/Views/Perfume/AddNewPerfume.cshtml" />
+        <option value="$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/task_53/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/task_53/SampleData.cs" />
+        <option value="$PROJECT_DIR$/task_53/Controllers/PerfumeController.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/62c094d6-628f-48ef-b240-0e2a5b5e62c7/console.sql" />
       </list>
     </option>
   </component>
@@ -109,6 +105,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,7 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577958530920</updated>
       <workItem from="1577958535032" duration="2897000" />
-      <workItem from="1577962231007" duration="3582000" />
+      <workItem from="1577962231007" duration="13852000" />
     </task>
     <servers />
   </component>

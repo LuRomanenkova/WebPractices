@@ -25,8 +25,10 @@ namespace task_53.Controllers
                 .ToList();
             // добавляем на первое место
             brandModels.Insert(0, new BrandModel { Id = 0, Name = "All" });
+
+            List<Perfume> _perfumes = db.Perfumes.ToList();
  
-            IndexViewModel ivm = new IndexViewModel { Brands = brandModels, Perfumes = db.Perfumes };
+            IndexViewModel ivm = new IndexViewModel { Brands = brandModels, Perfumes = _perfumes };
  
             // если передан id компании, фильтруем список
             if (brandId != null && brandId > 0)
