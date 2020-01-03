@@ -17,6 +17,14 @@
 <table class="table">
    @foreach (Perfume u in Model.Perfumes)
        {
-           <tr><td>@u.Name</td><td>@u.Price</td><td>@u.Brand.Name</td></tr>
+           <tr>
+               <td>@u.Name</td>
+               <td>
+                   @String.Format("{0} hours, {1} minutes, {2} seconds, {3} milliseconds", 
+                       u.LifeTime.Hours, u.LifeTime.Minutes, u.LifeTime.Seconds, u.LifeTime.Milliseconds)
+               </td>  
+               <td>@u.Price</td>
+               <td>@u.Brand.Name</td>
+           </tr>
        }
 </table>
