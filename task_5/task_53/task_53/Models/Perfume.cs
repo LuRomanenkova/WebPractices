@@ -9,6 +9,8 @@ namespace task_53.Models
         public int Price { get; set; }
         public int Volume { get; set; }
         public int Count { get; set; }
+        
+        public int BrandId { get; set; }
         public Brand Brand { get; set; }
         
         public DateTime CreationDate = DateTime.Now;

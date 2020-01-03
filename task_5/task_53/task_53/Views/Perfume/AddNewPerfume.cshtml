@@ -1,5 +1,6 @@
 ﻿@using task_53.ViewModels
 @model task_53.ViewModels.IndexViewModel
+
 @{
     ViewData["Title"] = "Add new perfume";
 }
@@ -9,37 +10,32 @@
     
     <p>
       <label for="brand">Select perfume brand</label>
-      <select name="brand" id="brand">
-        @foreach(BrandModel brand in Model.Brands)
+      <select name="BrandId" id="brand">
+        @foreach(Brand brand in Model.Brands)
         {
-            <option value="@brand.Id">@brand.Name</option>
+          <option value="@brand.Id">@brand.Name</option>
         }
       </select>
     </p>
 
     <p>
-      <label for="name">Enter perfume name</label>
-      <input type="text" name="name" id="name" placeholder="Coco Mademoiselle"><span></span>
+      @Html.Label("name", "Enter perfume name")
+      @Html.TextBox("name", "Coco Mademoiselle")
     </p>
 
     <p>
-      <label for="country">Enter brand country</label>
-      <input type="text" name="country" id="country" placeholder="France"><span></span>
+      @Html.Label("volume", "Enter perfume volume")
+      @Html.TextBox("volume", "30", new { type="number" } )
     </p>
     
     <p>
-      <label for="volume">Enter perfume volume</label>
-      <input type="text" name="volume" id="volume" placeholder="30"><span></span>
-    </p>
-    
-    <p>
-      <label for="price">Enter perfume price</label>
-      <input type="text" name="price" id="price" placeholder="7500"><span></span>
+      @Html.Label("price", "Enter perfume price")
+      @Html.TextBox("price", "7500", new { type="number" } )
     </p>
      
     <p>
-      <label for="count">Enter perfume count</label>
-      <input type="text" name="count" id="count" placeholder="10"><span></span>
+      @Html.Label("count", ">Enter perfume count")
+      @Html.TextBox("count", "10", new { type="number" } )
     </p>
 
 

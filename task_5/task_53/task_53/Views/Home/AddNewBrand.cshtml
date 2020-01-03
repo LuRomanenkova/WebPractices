@@ -1,25 +1,29 @@
-﻿
-@model task_53.ViewModels.IndexViewModel
+﻿@* @model task_53.ViewModels.IndexViewModel *@
 @{
     ViewData["Title"] = "Add new brand";
 }
 
-<form class="form-inline" method="post">
-  <div>
+@using (Html.BeginForm("AddNewBrand", "Home", FormMethod.Post))
+{
+    <div>
 
-    <p>
-      <label for="name">Enter brand name</label>
-      <input type="text" name="name" id="name" placeholder="Chanel"><span></span>
-    </p>
+        <p>
+        @Html.Label("name", "Enter brand name")
+        <!--<label for="name">Enter brand name</label>-->
+        <!--<input type="text" name="name" id="name" placeholder="Chanel"><span></span>-->
+        @Html.TextBox("name", "Chanel")
 
-    <p>
-      <label for="country">Enter brand country</label>
-      <input type="text" name="country" id="country" placeholder="France"><span></span>
-    </p>
-    
-    <span class="col-md-offset-2 col-md-10">
-        <button type="submit" value="Submit" name="Submit">Submit</button>                
-        <button type="submit"  value="Cancel" name="Cancel">Cancel</button>
-    </span>
-  </div>
-</form>
+        <p>
+           
+            <!--<label for="country">Enter brand country</label>-->
+            @Html.Label("country", "Enter brand country")
+            @Html.TextBox("country", "France")
+            <!--<input type="text" name="country" id="country" placeholder="France"><span></span>-->
+        </p>
+
+        <span class="col-md-offset-2 col-md-10">
+            <button type="submit" value="Submit" name="Submit">Submit</button>
+            <button type="submit" value="Cancel" name="Cancel">Cancel</button>
+        </span>
+    </div>
+}

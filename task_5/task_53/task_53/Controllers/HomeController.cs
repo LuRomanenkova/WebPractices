@@ -20,11 +20,11 @@ namespace task_53.Controllers
         public IActionResult Index(int? brandId)
         {
             // формируем список компаний для передачи в представление
-            List<BrandModel> brandModels = db.Brands
-                .Select(c => new BrandModel { Id = c.Id, Name = c.Name })
+            List<Brand> brandModels = db.Brands
+//                .Select(c => new BrandModel { Id = c.Id, Name = c.Name })
                 .ToList();
             // добавляем на первое место
-            brandModels.Insert(0, new BrandModel { Id = 0, Name = "All" });
+            brandModels.Insert(0, new Brand { Id = 0, Name = "All", Country = "no"});
 
             List<Perfume> _perfumes = db.Perfumes.ToList();
  

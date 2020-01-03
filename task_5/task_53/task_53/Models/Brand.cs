@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace task_53.Models
 {
@@ -8,11 +9,10 @@ namespace task_53.Models
         public string Name { get; set; }
         public string Country { get; set; }
         
-        public DateTime CreationDate = DateTime.Now;
-
-        public TimeSpan LifeTime
+        public List<Perfume> Perfumes { get; set; }
+        public Brand()
         {
-            get { return DateTime.Now.Subtract(CreationDate); }
+            Perfumes = new List<Perfume>();
         }
     }
 }
