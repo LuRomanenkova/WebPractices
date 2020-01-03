@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ad74207-7623-4d14-ac7e-92214cda1ab5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.task_53/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.task_53/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.task_53/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.task_53/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/Controllers/PerfumeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Controllers/PerfumeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/Models/Brand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Models/Brand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/Models/Perfume.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Models/Perfume.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/ViewModels/IndexViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/ViewModels/IndexViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/Views/Home/AddNewBrand.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Views/Home/AddNewBrand.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/Views/Perfume/AddNewPerfume.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Views/Perfume/AddNewPerfume.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_53/Views/Perfume/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Views/Perfume/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/bin/Debug/netcoreapp3.0/task_53.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Home/AddNewBrand.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Home/AddNewBrand.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Perfume/AddNewPerfume.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Perfume/AddNewPerfume.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.dll" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/obj/Debug/netcoreapp3.0/task_53.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,19 +75,19 @@
         <option value="$PROJECT_DIR$/task_53/Views/Home/AddNewPerfume.cshtml" />
         <option value="$PROJECT_DIR$/task_53/SampleData.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/62c094d6-628f-48ef-b240-0e2a5b5e62c7/console.sql" />
-        <option value="$PROJECT_DIR$/task_53/Views/Home/AddNewBrand.cshtml" />
         <option value="$PROJECT_DIR$/task_53/Models/Perfume.cs" />
         <option value="$PROJECT_DIR$/task_53/Models/Brand.cs" />
         <option value="$PROJECT_DIR$/task_53/ViewModels/PageViewModel.cs" />
         <option value="$PROJECT_DIR$/task_53/ViewModels/SortViewModel.cs" />
         <option value="$PROJECT_DIR$/task_53/ViewModels/FilterViewModel.cs" />
         <option value="$PROJECT_DIR$/task_53/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/task_53/Views/Perfume/Index.cshtml" />
         <option value="$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/task_53/ViewModels/IndexViewModel.cs" />
         <option value="$PROJECT_DIR$/task_53/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/task_53/Views/Perfume/AddNewPerfume.cshtml" />
         <option value="$PROJECT_DIR$/task_53/Controllers/PerfumeController.cs" />
+        <option value="$PROJECT_DIR$/task_53/Views/Perfume/Index.cshtml" />
+        <option value="$PROJECT_DIR$/task_53/Views/Home/AddNewBrand.cshtml" />
+        <option value="$PROJECT_DIR$/task_53/Views/Perfume/AddNewPerfume.cshtml" />
       </list>
     </option>
   </component>
@@ -193,7 +177,7 @@
       <updated>1577958530920</updated>
       <workItem from="1577958535032" duration="2897000" />
       <workItem from="1577962231007" duration="13852000" />
-      <workItem from="1578017410560" duration="14888000" />
+      <workItem from="1578017410560" duration="15725000" />
     </task>
     <servers />
   </component>

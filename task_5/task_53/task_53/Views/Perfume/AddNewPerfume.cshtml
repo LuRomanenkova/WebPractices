@@ -1,11 +1,11 @@
-﻿@using task_53.ViewModels
-@model task_53.ViewModels.IndexViewModel
+﻿@model task_53.ViewModels.IndexViewModel
 
 @{
     ViewData["Title"] = "Add new perfume";
 }
 
-<form class="form-inline" method="post">
+@using (Html.BeginForm("AddNewPerfume", "Perfume", FormMethod.Post))
+{
   <div>
     
     <p>
@@ -44,4 +44,4 @@
       <button type="submit" value="Cancel" name="Cancel">Cancel</button>
     </span>
   </div>
-</form>
+}
