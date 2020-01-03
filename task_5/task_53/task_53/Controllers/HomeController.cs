@@ -27,7 +27,7 @@ namespace task_53.Controllers
             brandModels.Insert(0, new Brand { Id = 0, Name = "All", Country = "no"});
 
             List<Perfume> _perfumes = db.Perfumes.ToList();
- 
+            ViewBag.Brands = brandModels;
             IndexViewModel ivm = new IndexViewModel { Brands = brandModels, Perfumes = _perfumes };
  
             // если передан id компании, фильтруем список

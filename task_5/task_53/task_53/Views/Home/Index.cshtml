@@ -6,9 +6,10 @@
 {
     <label>Select brand: </label>
     <select name="brandId" class="form-control">
-        @foreach (Brand brand in Model.Brands)
+        @foreach (Brand brand in ViewBag.Brands)
         {
             <option value="@brand.Id">@brand.Name</option>
+            //<option value="@brand.Id">@brand.Name</option>
         }
     </select>
     <input type="submit"/>
