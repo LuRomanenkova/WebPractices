@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9ad74207-7623-4d14-ac7e-92214cda1ab5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.task_53/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.task_53/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/task_53/Views/Home/Index.cshtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +170,7 @@
       <updated>1577958530920</updated>
       <workItem from="1577958535032" duration="2897000" />
       <workItem from="1577962231007" duration="13852000" />
-      <workItem from="1578017410560" duration="18610000" />
+      <workItem from="1578017410560" duration="18979000" />
     </task>
     <servers />
   </component>
