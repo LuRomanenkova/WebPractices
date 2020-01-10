@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Brand list</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Список пользователей</h2>
+    <form name="brandForm">
+        <input type="hidden" name="id" value="0" />
+        <div class="form-group col-md-5">
+            <label for="name">Name:</label>
+            <input class="form-control" name="name" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="country">Country:</label>
+            <input class="form-control" name="country" />
+        </div>
+        <div class="panel-body">
+            <button type="submit" id="submit" class="btn btn-primary">Create</button>
+            <a id="reset" class="btn btn-primary">Cancel</a>
+        </div>
+    </form>
+    <table class="table table-condensed table-striped  col-md-6">
+        <thead><tr><th>Id</th><th>Name</th><th>Country</th><th></th></tr></thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div>2020 © LuRomanenkova</div>
+    <script>
+        // Получение всех пользователей
+        async function GetBrands() {
+            // отправляет запрос и получаем ответ
+            const response = await fetch("/api/brands", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            // если запрос прошел нормально
+            if (response.ok === true) {
+                // получаем данные
+                const brands = await response.json();
+                let rows = document.querySelector("tbody");
+                brands.forEach(brand => {
+                    // добавляем полученные элементы в таблицу
+                    rows.append(row(brand));
+                });
+            }
+        }
+        // Получение одного пользователя
+        async function GetBrand(id) {
+            const response = await fetch("/api/brands/" + id, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const brand = await response.json();
+                const form = document.forms["brandForm"];
+                form.elements["id"].value = brand.id;
+                form.elements["name"].value = brand.name;
+                form.elements["country"].value = brand.country;
+            }
+        }
+
+        // Добавление пользователя
+        async function CreateBrand(Name, Country) {
+
+            const response = await fetch("api/brands", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: Name,
+                    country: Country
+                })
+            });
+            if (response.ok === true) {
+                const brand = await response.json();
+                reset();
+                document.querySelector("tbody").append(row(brand));
+            }
+        }
+        // Изменение пользователя
+        async function EditBrand(Id, Name, Country) {
+            const response = await fetch("/api/brands/" + Id, {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    id: parseInt(Id, 10),
+                    name: Name,
+                    country: Country
+                })
+            });
+            if (response.ok === true) {
+                const brand = await response.json();
+                reset();
+                document.querySelector("tr[data-rowid='" + brand.id + "']").replaceWith(row(brand));
+            }
+        }
+        // Удаление пользователя
+        async function DeleteBrand(id) {
+            const response = await fetch("/api/brands/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const brand = await response.json();
+                document.querySelector("tr[data-rowid='" + brand.id + "']").remove();
+            }
+        }
+        // сброс формы
+        function reset() {
+            const form = document.forms["brandForm"];
+            form.reset();
+            form.elements["id"].value = 0;
+        }
+        // создание строки для таблицы
+        function row(brand) {
+
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", brand.id);
+
+            const idTd = document.createElement("td");
+            idTd.append(brand.id);
+            tr.append(idTd);
+
+            const nameTd = document.createElement("td");
+            nameTd.append(brand.name);
+            tr.append(nameTd);
+
+            const ageTd = document.createElement("td");
+            ageTd.append(brand.country);
+            tr.append(ageTd);
+
+            const linksTd = document.createElement("td");
+
+            const editLink = document.createElement("a");
+            editLink.setAttribute("data-id", brand.id);
+            editLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            editLink.append("Change");
+            editLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                GetUser(brand.id);
+            });
+
+            linksTd.append(editLink);
+
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("data-id", brand.id);
+            removeLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            removeLink.append("Delete");
+            removeLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                DeleteUser(brand.id);
+            });
+
+            linksTd.append(removeLink);
+            tr.appendChild(linksTd);
+
+            return tr;
+        }
+        // сброс значений формы
+        document.getElementById("reset").click(function (e) {
+
+            e.preventDefault();
+            reset();
+        })
+        // отправка формы
+        document.forms["brandForm"].addEventListener("submit", e => {
+            e.preventDefault();
+            const form = document.forms["brandForm"];
+            const id = form.elements["id"].value;
+            const name = form.elements["name"].value;
+            const country = form.elements["country"].value;
+            if (id == 0)
+                CreateBrand(name, country);
+            else
+                EditBrand(id, name, country);
+        });
+
+        // загрузка пользователей
+        GetBrands();
+
+    </script>
+</body>
+</html>
+
+

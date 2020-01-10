@@ -29,7 +29,7 @@ namespace task_7
         {
             string connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<PerfumeStoreContext>(options => options.UseNpgsql(connection));
-            
+            services.AddCors();
             services.AddControllers();
         }
 
@@ -40,6 +40,12 @@ namespace task_7
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            //app.UseDefaultFiles();
+            //app.UseStaticFiles();
+
+            //app.UseCors(builder => builder.WithOrigins("http://localhost:8080"));
+            app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
             app.UseRouting();
 

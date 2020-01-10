@@ -124,9 +124,9 @@ namespace task_7.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Brand>> Post([FromForm] Brand brand)
+        public async Task<ActionResult<Brand>> Post(Brand brand)
         {
-            if (brand == null || db.Brands.Any(x => x.Name == brand.Name))
+            if (brand == null)
             {
                 return BadRequest();
             }
@@ -137,7 +137,7 @@ namespace task_7.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<Brand>> Put(int id, [FromForm] Brand brand)
+        public async Task<ActionResult<Brand>> Put(int id, Brand brand)
         {
             Brand brandTemplate = db.Brands.FirstOrDefault(x => x.Id == id);
             if (brandTemplate == null)
